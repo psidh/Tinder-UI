@@ -1,6 +1,6 @@
-#Tinder UI Clone
+# Tinder UI Clone
 
-# Tech Stack
+## Tech Stack
 
 - HTML5
 - Tailwind CSS
