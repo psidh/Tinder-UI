@@ -7,5 +7,60 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-black text-white font-mono"></body>
+  <body class="bg-black text-white font-mono">
+    <!-- Navbar -->
+
+    <section class="flex flex-col proxima">
+      <section
+        class="py-8 flex justify-between items-center px-16 absolute w-full"
+        style="background-image: linear-gradient(black, transparent)"
+      >
+        <img src="./images/tinder_logo.png" alt="" class="w-auto h-20" />
+        <div class="flex justify-between items-center space-x-8">
+          <button
+            class="text-lg rounded-lg text-white py-2 px-6 bg-pink-600 hover:bg-red-500 transition duration-200 nav-button"
+          >
+            Login
+          </button>
+          <button
+            class="text-lg rounded-lg text-white py-2 px-6 bg-orange-600 hover:bg-pink-500 transition duration-200 nav-button"
+          >
+            Sign Up
+          </button>
+        </div>
+      </section>
+      <div class="justify-center items-center">
+        <img
+          src="./images/landing.webp"
+          alt=""
+          class="w-full absolute -z-10 object-cover"
+        />
+        <div
+          class="h-[90vh] px-20 flex flex-col items-center justify-center text-center"
+          style="background-image: linear-gradient(black 10%, transparent)"
+        >
+          <h1 class="proxima text-[4.4rem] font-bold leading-[6rem]">
+            Single? Start your love life, with Tinder
+          </h1>
+          <h2
+            class="proxima text-[2rem] font-medium leading-[2.4rem] opacity-80"
+          >
+            World's most trusted app for relationships
+          </h2>
+          <button
+            class="text-xl rounded-full bg-pink-600 py-3 px-12 mt-12 hover:bg-orange-400 transition duration-200 nav-button"
+          >
+            Begin your journey
+          </button>
+        </div>
+      </div>
+      <div class="bg-[#212121] flex justify-between items-center p-12">
+        <h1>Copyright Tinder 2024</h1>
+        <div>
+          <p>Instagram</p>
+          <p>Twitter</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
